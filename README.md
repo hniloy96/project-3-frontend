@@ -16,6 +16,7 @@ User Story:
     User can also navigate to discover page to find artists that the user doesn't follow 
     User can navigate to albums page to view recently released albums or old albums, and review them or create posts about them. 
 
+<img width="402" alt="userflow" src="https://user-images.githubusercontent.com/115533531/210595889-857610c1-ed86-4aca-b358-c2d276d08f58.png">
 
 
 Feasibility Check:
