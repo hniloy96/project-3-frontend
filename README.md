@@ -18,6 +18,8 @@ User Story:
 
 <img width="402" alt="userflow" src="https://user-images.githubusercontent.com/115533531/210595889-857610c1-ed86-4aca-b358-c2d276d08f58.png">
 
+<img width="782" alt="ERD" src="https://user-images.githubusercontent.com/115533531/210595993-bca5c538-b034-4ff9-bd41-801e8150b5a1.png">
+
 
 Feasibility Check:
 - Would like to include an option for upload audio files and create a local server to host that for this project! 
