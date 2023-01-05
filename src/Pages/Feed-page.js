@@ -1,8 +1,9 @@
 import React from "react";
+import './Feed-page.css'
 
 function Feed (props) {
     return (
-        <div className="content-container">
+        <div className="Feed-content-container">
             <h5>THIS IS Feed PAGE</h5>
         </div>
     )

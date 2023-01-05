@@ -1,6 +1,7 @@
 import './App.css';
 import React, {useState, useEffect} from 'react';
 import { Routes, Route } from 'react-router-dom';
+import ReactAudioPlayer from 'react-audio-player';
 import Home from './Pages/Home-page';
 import Profile from './Pages/Profile-page';
 import Feed from './Pages/Feed-page'
