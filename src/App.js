@@ -5,7 +5,7 @@ import Home from './Pages/Home-page';
 import Profile from './Pages/Profile-page';
 import Feed from './Pages/Feed-page'
 
-import Nav from './Pages/Nav';
+import Nav from './Components/Nav';
 
 function App() {
   return (
@@ -22,8 +22,7 @@ function App() {
         </div>
 
       </div>
-
-      <audio className='player' src='' controls />
+      <audio className='player' controls/>
     
      
     </div>
