@@ -2,7 +2,7 @@ import React from "react";
 
 function Feed (props) {
     return (
-        <div>
+        <div className="content-container">
             <h5>THIS IS Feed PAGE</h5>
         </div>
     )
