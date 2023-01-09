@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Card from '../Components/Card/Card';
 
 function Feed() {
+  <div></div>;
   const [posts, setPosts] = useState([
     {
       id: 1,

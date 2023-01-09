@@ -3,10 +3,13 @@ import React, { useState } from 'react';
 function Card({ post, onLike, onComment }) {
   const [liked, setLiked] = useState(false);
   const [comment, setComment] = useState('');
+  const [isVisible, setIsVisible] = useState(false);
+
 
   function handleLike() {
     setLiked(true);
     onLike();
+    
   }
 
   function handleCommentSubmit(e) {
@@ -23,6 +26,9 @@ function Card({ post, onLike, onComment }) {
       <div className="card-body">
         <p>{post.description}</p>
       </div>
+      <div>
+        <h1>{post.imageUrl}</h1>
+      </div>
       <div className="card-footer">
         <button className="btnLikes" onClick={handleLike}>
           {liked ? (
@@ -33,7 +39,9 @@ function Card({ post, onLike, onComment }) {
           ) : (
             'Like'
           )}
-        </button>
+        </button><div className="card-likes">
+        <span>{post.likes} likes</span>
+      </div>
         <form onSubmit={handleCommentSubmit}>
           <div className="input-group mr-2">
             <input
@@ -61,9 +69,7 @@ function Card({ post, onLike, onComment }) {
           </div>
         ))}
       </div>
-      <div className="card-likes">
-        <span>{post.likes} likes</span>
-      </div>
+      
     </div>
   );
 }

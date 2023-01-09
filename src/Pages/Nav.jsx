@@ -13,7 +13,7 @@ const Nav = (props) => {
                 <div className="list-items">Feed</div>
             </Link>
             <Link to="/profile">
-                <div className="list-items">Pofile</div>
+                <div className="list-items">Profile</div>
             </Link>
         </div>
     );
