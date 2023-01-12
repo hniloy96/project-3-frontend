@@ -63,11 +63,12 @@ function Card({ post, onLike, onComment }) {
         </button>
       </div>
       <div className="card-comments">
-        {post.comments.map(c => (
-          <div key={c} className="card-comment">
+        {post.comments.map((c,index) => {
+          return(
+          <div key={index} className="card-comment">
             <p>{c}</p>
           </div>
-        ))}
+        )})}
       </div>
       
     </div>
