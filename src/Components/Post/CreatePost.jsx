@@ -8,7 +8,7 @@ function CreatePost() {
 
     const navigate = useNavigate()
 
-    const URL = `http://localhost:4000/api/create/`
+    const URL = `http://localhost:3000/create`
 
     // handle input changes in the form
     const handleChange = (e) => setCreateForm({ ...createForm, [e.target.name]: e.target.value })
@@ -32,7 +32,7 @@ function CreatePost() {
 
         } catch (err) {
             console.log(err)
-            navigate(URL)
+            // navigate(URL)
         }
     }
 
@@ -42,14 +42,14 @@ function CreatePost() {
             <input
                 type="text"
                 value={createForm.title}
-                name="title"
+                name="text"
                 placeholder="Title"
                 onChange={handleChange}
             />
             <input
                 type="text"
                 value={createForm.description}
-                name="description"
+                name="comments"
                 placeholder="Description"
                 onChange={handleChange}
             />

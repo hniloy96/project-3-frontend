@@ -10,7 +10,7 @@ function Feed() {
 
   // Function to fetch the list of posts from the backend API
   async function fetchPosts() {
-    const res = await fetch("http://localhost:4000/api/posts");
+    const res = await fetch("http://localhost:4000/posts");
     const data = await res.json();
     setPosts(data);
   }
@@ -64,5 +64,4 @@ function Feed() {
   );
 
       }
-
-      export default Feed
+export default Feed;

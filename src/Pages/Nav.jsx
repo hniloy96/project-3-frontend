@@ -17,6 +17,6 @@ const Nav = (props) => {
             </Link>
         </div>
     );
-};
+}
 
 export default Nav;
